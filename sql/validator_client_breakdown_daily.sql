@@ -1,5 +1,3 @@
--- Daily validator client stake breakdown in the style of the Blockworks chart.
---
 -- Upload the generated CSV to Dune and replace the table name below if needed.
 
 WITH epoch_dates AS (
