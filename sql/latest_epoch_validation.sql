@@ -1,5 +1,4 @@
 -- Sanity check: the latest epoch should put active BAM stake near the public
--- Blockworks/Trillium chart for the same epoch.
 
 WITH latest_epoch AS (
     SELECT MAX(CAST(epoch AS bigint)) AS epoch
